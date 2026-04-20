@@ -47,14 +47,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      content: '+1 (555) 123-4567',
+      content: '+91 (80) 49760549',
       description: 'Mon-Fri from 8am to 6pm'
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      content: '123 Business Ave, Suite 100',
-      description: 'San Francisco, CA 94105'
+      content: 'Green Orchids No 102, 4th Cross Behind Fire Station Jayanagar 4Th T Block',
+      description: 'Karnataka Bangalore-560041 India'
     }
   ];
 
@@ -284,7 +284,7 @@ const Contact = () => {
               <div className="text-center text-zinc-600">
                 <MapPin className="w-12 h-12 mx-auto mb-2" />
                 <p className="font-medium">Interactive Map</p>
-                <p className="text-sm">San Francisco, CA</p>
+                <p className="text-sm">Solid Code Jayanagar, Bengaluru</p>
               </div>
             </motion.div>
           </motion.div>
