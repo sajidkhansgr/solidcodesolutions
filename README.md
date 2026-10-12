@@ -46,7 +46,7 @@ With **pre-built sections** like Hero, Features, Portfolio, Pricing, Testimonial
 
 ### Prerequisites
 
--   Node.js (v18+ recommended)
+-   Node.js 20.19+ or 22.12+
 -   npm or yarn
 
 ### Installation
@@ -62,6 +62,8 @@ yarn install
 ### Running Locally
 
 ```bash
+npm start
+# or
 npm run dev
 # or
 yarn dev
@@ -89,7 +91,7 @@ yarn build
 -   `styles.css` / `index.css` – Tailwind CSS styles
 -   `tailwind.config.js` – Tailwind CSS configuration
 -   `postcss.config.js` – PostCSS configuration
--   `vite.config.js` – Vite configuration
+-   `vite.config.mjs` – Vite configuration
 -   `package.json` – Project dependencies and scripts
 
 ---
